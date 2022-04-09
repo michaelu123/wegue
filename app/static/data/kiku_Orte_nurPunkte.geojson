@@ -1,0 +1,405 @@
+{
+    "type": "FeatureCollection",
+    "name": "kiku_Orte_nurPunkte",
+    "features": [{
+            "type": "Feature",
+            "properties": {
+                "osm_id": 118483148,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "81241",
+                "locality": null,
+                "type": "house",
+                "osm_type": "W",
+                "osm_key": "place",
+                "housenumber": "1",
+                "street": "Alois-Wunder-Straße",
+                "district": "Pasing",
+                "osm_value": "house",
+                "name": "aqu@rium",
+                "state": "Bayern",
+                "art": "Jugendzentrum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.464193, 48.144003]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 107438364,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "81241",
+                "locality": null,
+                "type": "house",
+                "osm_type": "W",
+                "osm_key": "building",
+                "housenumber": "46",
+                "street": "Bäckerstraße",
+                "district": "Pasing",
+                "osm_value": "civic",
+                "name": "Bayerische Philharmonie e.V.",
+                "state": "Bayern",
+                "art": "Gesang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.461369, 48.14062]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 16723611,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "80638",
+                "locality": "Nederling",
+                "type": "house",
+                "osm_type": "W",
+                "osm_key": "leisure",
+                "housenumber": "65",
+                "street": "Menzinger Straße",
+                "district": "Neuhausen-Nymphenburg",
+                "osm_value": "garden",
+                "name": "Botanischer Garten München-Nymphenburg",
+                "state": "Bayern",
+                "art": "Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.499829, 48.163265]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 30915562,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "81249",
+                "locality": null,
+                "type": "house",
+                "osm_type": "W",
+                "osm_key": "historic",
+                "housenumber": "19",
+                "street": "Bertha-Kipfmüller-Straße",
+                "district": "Aubing-Süd",
+                "osm_value": "building",
+                "name": "Boulderwelt München West",
+                "state": "Bayern",
+                "art": "Sport"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.4204, 48.136551]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 587851418,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "81245",
+                "locality": "Neupasing",
+                "type": "street",
+                "osm_type": "W",
+                "osm_key": "highway",
+                "housenumber": null,
+                "street": null,
+                "district": "Neupasing",
+                "osm_value": "residential",
+                "name": "Gleis 24 – Ernas Jugendkulturcafé",
+                "state": "Bayern",
+                "art": "Jugendzentrum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.476673, 48.148911]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 27932813,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "81249",
+                "locality": "Neuaubing",
+                "type": "house",
+                "osm_type": "W",
+                "osm_key": "amenity",
+                "housenumber": "57",
+                "street": "Wiesentfelser Straße",
+                "district": "Aubing-Süd",
+                "osm_value": "community_centre",
+                "name": "Jugendtreff Neuaubing",
+                "state": "Bayern",
+                "art": "Jugendzentrum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.411562, 48.145853]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 67884330,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "81245",
+                "locality": "Neu-Langwied",
+                "type": "house",
+                "osm_type": "W",
+                "osm_key": "building",
+                "housenumber": "1",
+                "street": "An der Schäferwiese",
+                "district": "Obermenzing",
+                "osm_value": "yes",
+                "name": "Kinder- und Jugendtreff Schäwie",
+                "state": "Bayern",
+                "art": "Jugendzentrum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.443804, 48.158525]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 100184318,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "80999",
+                "locality": null,
+                "type": "house",
+                "osm_type": "W",
+                "osm_key": "amenity",
+                "housenumber": "1",
+                "street": "Pfarrer-Grimm-Straße",
+                "district": "Untermenzing-Allach",
+                "osm_value": "library",
+                "name": "Münchner Stadtbibliothek Allach-Untermenzing",
+                "state": "Bayern",
+                "art": "Bibliothek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.463922, 48.179574]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 30820398,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "81241",
+                "locality": null,
+                "type": "house",
+                "osm_type": "W",
+                "osm_key": "amenity",
+                "housenumber": "9",
+                "street": "Bäckerstraße",
+                "district": "Pasing",
+                "osm_value": "library",
+                "name": "Münchner Stadtbibliothek Pasing",
+                "state": "Bayern",
+                "art": "Bibliothek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.461597, 48.147176]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 37703317,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "81245",
+                "locality": "Kolonie I",
+                "type": "house",
+                "osm_type": "W",
+                "osm_key": "amenity",
+                "housenumber": "1",
+                "street": "August-Exter-Straße",
+                "district": "Neupasing",
+                "osm_value": "community_centre",
+                "name": "Pasinger Fabrik",
+                "state": "Bayern",
+                "art": "Jugendzentrum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.46128, 48.151039]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 270851796,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "81247",
+                "locality": "Pipping",
+                "type": "house",
+                "osm_type": "W",
+                "osm_key": "historic",
+                "housenumber": "15",
+                "street": "Seldweg",
+                "district": "Obermenzing",
+                "osm_value": "castle",
+                "name": "Schloss Blutenburg",
+                "state": "Bayern",
+                "art": "Bibliothek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.456855, 48.163087]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 31018278,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "81241",
+                "locality": null,
+                "type": "house",
+                "osm_type": "W",
+                "osm_key": "historic",
+                "housenumber": "509",
+                "street": "Landsberger Straße",
+                "district": "Pasing",
+                "osm_value": "building",
+                "name": "Schüler/innentreff Café Klatsch - Pasing",
+                "state": "Bayern",
+                "art": "Jugendzentrum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.461957, 48.146438]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 35112482,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "81243",
+                "locality": "Westkreuz",
+                "type": "house",
+                "osm_type": "W",
+                "osm_key": "leisure",
+                "housenumber": "57",
+                "street": "Aubinger Straße",
+                "district": "Aubing-Süd",
+                "osm_value": "playground",
+                "name": "Spiellandschaft Stadt",
+                "state": "Bayern",
+                "art": "Jugendzentrum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.438413, 48.149653]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 27426799,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "81245",
+                "locality": "Aubing",
+                "type": "house",
+                "osm_type": "W",
+                "osm_key": "building",
+                "housenumber": "9",
+                "street": "Ubostraße",
+                "district": "Altaubing",
+                "osm_value": "public",
+                "name": "Tenne Aubing",
+                "state": "Bayern",
+                "art": "Jugendzentrum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.413465, 48.157332]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 633090766,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "80639",
+                "locality": "Nymphenburg",
+                "type": "house",
+                "osm_type": "W",
+                "osm_key": "amenity",
+                "housenumber": "21",
+                "street": "Rosa-Bavarese-Straße",
+                "district": "Neuhausen-Nymphenburg",
+                "osm_value": "community_centre",
+                "name": "Treff Mosaik",
+                "state": "Bayern",
+                "art": "Jugendzentrum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.502304, 48.145797]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 30971210,
+                "country": "Deutschland",
+                "city": "München",
+                "countrycode": "DE",
+                "postcode": "81241",
+                "locality": "Am Westbad",
+                "type": "house",
+                "osm_type": "W",
+                "osm_key": "leisure",
+                "housenumber": "11",
+                "street": "Weinbergerstraße",
+                "district": "Am Westbad",
+                "osm_value": "water_park",
+                "name": "Westbad (Hallenbad)",
+                "state": "Bayern",
+                "art": "Schwimmbad"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.474714, 48.14073]
+            }
+        }
+    ]
+}
