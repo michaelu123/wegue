@@ -3,11 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="manifest" href="static/manifest.json" />
     <title>Wegue WebGIS</title>
   </head>
   <body>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          // navigator.serviceWorker.register("/sw.js", { scope: "/" }).then(
+          navigator.serviceWorker.register("/static/sw.js", { scope: "/static/" }).then(
+            function (registration) {
+              // Registration was successful
+              console.log(
+                "ServiceWorker1 registration successful with scope: ",
+                registration.scope,
+              );
+            },
+            function (err) {
+              // registration failed :(
+              console.log("ServiceWorker registration failed: ", err);
+            },
+          );
+        });
+      }
+    </script>
   </body>
 </html>

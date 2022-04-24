@@ -18,8 +18,8 @@
         <!-- feature property grid -->
         <wgu-property-table :properties="attributeData" />
 
-        <!-- click coodinate info grid -->
-        <wgu-coords-table :coordsData="coordsData" />
+        <!-- click coodinate info grid MUH -->
+        <wgu-coords-table v-if="!this.attributeData" :coordsData="coordsData" /> 
 
       </v-card-title>
 
@@ -126,7 +126,25 @@ export default {
         let props = feat.getProperties();
         // do not show geometry property
         delete props.geometry;
-
+        // MUH
+        console.log('props', props);
+        if (props.DIST_KM) {
+          props = null;
+        } else if (props.country) {
+          delete props.osm_id;
+          delete props.country;
+          delete props.city;
+          delete props.countrycode;
+          delete props.country;
+          delete props.postcode;
+          delete props.locality;
+          delete props.type;
+          delete props.osm_type;
+          delete props.osm_key;
+          delete props.district;
+          delete props.osm_value;
+          delete props.state;
+        }
         me.attributeData = props;
       } else {
         me.attributeData = null;

@@ -3,4 +3,5 @@ docs
 test
 screenshots
 dist
-
+xdist
+**/tiles

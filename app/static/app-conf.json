@@ -1,5 +1,4 @@
 {
-
   "colorTheme": {
     "themes": {
       "light": {
@@ -12,9 +11,17 @@
   "logoWidth": "100",
   "logoHeight": "100",
 
+  "lang": {
+    "supported": {
+      "en": "English",
+      "de": "Deutsch"
+    },
+    "fallback": "de"
+  },
+
   "showCopyrightYear": false,
-  "mapZoom": 13,
-  "mapCenter": [1272526.9152543677, 6129164.557462659],
+  "mapZoom": 16,
+  "mapCenter": [1275895, 6131759],
   "mapGeodataDragDop": {
     "formats": ["GeoJSON", "KML"],
     "zoomToData": true,
@@ -22,7 +29,7 @@
     "displayInLayerList": true
   },
 
-  "overviewMap" : {
+  "MUHoverviewMap": {
     "visible": false
   },
 
@@ -36,29 +43,30 @@
   },
 
   "mapLayers": [
-  {
+    {
       "type": "VECTOR",
-      "lid": "kikuOrte",
+      "name": "Kiku Orte",
+      "lid": "kiku_orte",
       "url": "./static/data/kiku_Orte_nurPunkte.geojson",
       "format": "GeoJSON",
       "selectable": true,
       "style": {
-        "radius": 4,
+        "radius": 10,
         "strokeColor": "rgb(251,176,64)",
-        "strokeWidth": 1,
+        "strokeWidth": 3,
         "fillColor": "rgb(34,170,225)"
       }
-   },
-   {
+    },
+    {
       "type": "VECTOR",
-      "name": "kiku Route",
+      "name": "Kiku Route",
       "url": "./static/data/kiku_Route.geojson",
       "zIndex": 1,
       "displayInLayerList": true,
       "lid": "kiku_route",
       "format": "GeoJSON",
       "code": "EPSG:4326",
-      "units":"degrees",
+      "units": "degrees",
       "style": {
         "strokeColor": "rgb(237,28,36)",
         "strokeWidth": 2
@@ -103,7 +111,7 @@
         "limit": 6
       }
     },
-    "wgu-zoomtomaxextent": {
+    "MUHwgu-zoomtomaxextent": {
       "target": "toolbar"
     },
     "wgu-maprecorder": {
@@ -133,6 +141,9 @@
       "win": "floating",
       "icon": "table_chart",
       "syncTableMapSelection": true
+    },
+    "wgu-localeswitcher": {
+      "target": "toolbar"
     }
   }
 }

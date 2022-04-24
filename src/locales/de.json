@@ -1,7 +1,7 @@
 {
   "app": {
-    "title": "Vue.js / OpenLayers WebGIS",
-    "browserTitle": "Wegue Demo Anwendung",
+    "title": "Kinder Kultur Radweg",
+    "browserTitle": "KiKu",
     "footerTextLeft": "Powered by <a href='https://meggsimum.de/wegue/' target='_blank'>Wegue WebGIS</a>",
     "footerTextRight": "meggsimum",
     "logo": "App Logo"

@@ -151,6 +151,10 @@ export default {
       this.tileGrids[name] = new TileGrid(this.tileGridDefs[name]);
     });
 
+    let minx = 1268816; // MUH
+    let miny = 6127717;
+    let maxx = 1278850;
+    let maxy = 6135571;
     this.map = new Map({
       layers: [],
       controls: controls,
@@ -158,7 +162,10 @@ export default {
       view: new View({
         center: this.center,
         zoom: this.zoom,
-        projection: projection
+        projection: projection,
+        extent: [minx, miny, maxx, maxy], // MUH
+        minZoom: 14,
+        maxZoom: 16
       })
     });
 

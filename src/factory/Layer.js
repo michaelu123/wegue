@@ -241,7 +241,8 @@ export const LayerFactory = {
     const layer = new TileLayer({
       ...this.getCommonLayerOptions(lConf),
       source: new OsmSource({
-        crossOrigin: lConf.crossOrigin
+        crossOrigin: lConf.crossOrigin,
+        url: 'static/tiles/{z}/{x}/{y}.png' // MUH
       })
     });
 

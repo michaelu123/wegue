@@ -1,0 +1,46 @@
+{
+  "name": "Kiku-Wegue as Progressive Web App",
+  "id": "",
+  "short_name": "Kiku",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#3F51B5",
+  "description": "Kiku Pasing with locations and routes.",
+  "dir": "ltr",
+  "lang": "de-DE",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon/logo-48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "icon/logo-96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "icon/logo-144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "icon/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon/logo-256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "icon/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
