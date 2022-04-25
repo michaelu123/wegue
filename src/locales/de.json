@@ -14,15 +14,18 @@
     "wgu-measure-layer": {
       "name": "Messergebnisse"
     },
-    "wgu-drag-drop-layer" : {
+    "wgu-drag-drop-layer": {
       "name": "Drag/Drop Daten"
+    },
+    "osm-bg": {
+      "name": "OpenStreetMap"
     }
   },
 
   "wgu-toolbar-menu": {
     "title": "Menüleiste ausklappen"
   },
-  
+
   "wgu-attributetable": {
     "title": "Attribut Tabelle",
     "selectorLabel": "Layer auswählen",
@@ -62,7 +65,7 @@
   },
 
   "wgu-layerlist": {
-    "title": "Layer" 
+    "title": "Layer"
   },
 
   "wgu-maprecorder": {

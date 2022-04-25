@@ -23,7 +23,7 @@ console.log("2sw");
 
 self.addEventListener("install", function(event) {
   // Perform install steps
-  console.log("sw install", event);
+  console.log("sw install1", event);
   event.waitUntil(
     caches.open(CACHE_STATIC_NAME).then(async function(cache) {
       console.log("Opened cache");
@@ -58,15 +58,18 @@ self.addEventListener("install", function(event) {
       }
 
       console.log("addAll1");
-      await cache.addAll(urlsToCache);
-      console.log("addAll2");
+      return cache.addAll(urlsToCache);
     })
   );
+  self.skipWaiting();
+  console.log("sw install2");
+
 });
 console.log("3sw");
 
 self.addEventListener("activate", function(event) {
   console.log("sw activated", event);
+  self.clients.claim();
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
       return Promise.all(
@@ -87,10 +90,10 @@ self.addEventListener("activate", function(event) {
 
 console.log("4sw");
 self.addEventListener("fetch", function(event) {
-  // console.log("fetch1", event.request.url);
+  console.log("fetch1", event.request.url);
   event.respondWith(
     caches.match(event.request).then(function(response) {
-      // console.log("fetch2", response);
+      console.log("fetch2", response);
       // Cache hit - return response
       if (response) {
         return response;
