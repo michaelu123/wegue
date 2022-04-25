@@ -29,10 +29,6 @@
     "displayInLayerList": true
   },
 
-  "MUHoverviewMap": {
-    "visible": false
-  },
-
   "viewAnimation": {
     "type": "fly",
     "options": {
@@ -110,9 +106,6 @@
         "countrycodes": "",
         "limit": 6
       }
-    },
-    "MUHwgu-zoomtomaxextent": {
-      "target": "toolbar"
     },
     "wgu-maprecorder": {
       "target": "toolbar",

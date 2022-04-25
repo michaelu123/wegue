@@ -126,8 +126,6 @@ export default {
         let props = feat.getProperties();
         // do not show geometry property
         delete props.geometry;
-        // MUH
-        console.log('props', props);
         if (props.DIST_KM) {
           props = null;
         } else if (props.country) {

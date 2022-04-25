@@ -15,6 +15,8 @@ import ColorThemeUtil from './util/ColorTheme'
 import 'vuetify/dist/vuetify.min.css';
 import axios from 'axios';
 
+import runtime from 'serviceworker-webpack-plugin/lib/runtime';
+
 Vue.use(Vuetify);
 Vue.use(PortalVue);
 Vue.use(VueI18n);
@@ -27,6 +29,9 @@ try {
 } catch (e) { }
 
 Vue.config.productionTip = false;
+if ('serviceWorker' in navigator) {
+  runtime.register()
+}
 
 // Detect isEmbedded state by attribute embedded and
 // make accessible for all components

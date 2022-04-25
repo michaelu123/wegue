@@ -5,3 +5,4 @@ screenshots
 dist
 xdist
 **/tiles
+package-lock.json
